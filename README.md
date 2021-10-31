@@ -1,3 +1,3 @@
-# Position items in corner of main div
+# Position items inside of the parent element
 
 ![](pic/res.png)
