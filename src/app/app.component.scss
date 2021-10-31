@@ -1,0 +1,62 @@
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-big {
+  left: 30%;
+  width: 400px;
+  height: 400px;
+  border-style: solid;
+}
+
+.div-small {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.middle-right {
+  top: 45%;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.not-relative {
+  border-color:indianred;
+
+  .top-left {
+    background-color: green;
+  }
+  .middle-right {
+    background-color: greenyellow;
+  }
+  .bottom-left {
+    background-color: lightgreen;
+  }
+}
+
+.relative {
+  position: relative;
+  border-color: aqua;
+
+  .top-left {
+    background-color: yellow;
+  }
+  .middle-right {
+    background-color: orange;
+  }
+  .bottom-left {
+    background-color: gold;
+  }
+}
