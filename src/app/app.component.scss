@@ -5,7 +5,6 @@
 }
 
 .div-big {
-  left: 30%;
   width: 400px;
   height: 400px;
   border-style: solid;
@@ -32,7 +31,8 @@
   left: 0;
 }
 
-.not-relative {
+.static {
+  position: static;
   border-color:indianred;
 
   .top-left {
@@ -47,6 +47,7 @@
 }
 
 .relative {
+  left: 30%;
   position: relative;
   border-color: aqua;
 
